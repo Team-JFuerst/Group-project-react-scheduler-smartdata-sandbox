@@ -28,9 +28,9 @@ export default {
         'link': ''
       }
     ],
-    'resourceId': 'a',
-    'start': new Date(2017, 8, 3, 20, 0, 0, 0),
-    'end': new Date(2017, 8, 3, 21, 0, 0, 0),
+    'resourceId': 'sched01',
+    'start': new Date(2018, 5, 27, 20, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 21, 0, 0, 0),
     'isRecurrenceEdit': false,
     'isEdit': true,
     'isDelete': true,
@@ -46,9 +46,9 @@ export default {
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
     'soapNoteTitle': 'Create Soap Note',
-    'resourceId': 'a',
-    'start': new Date(2017, 9, 4, 5, 30, 0, 0),
-    'end': new Date(2017, 9, 4, 6, 30, 0, 0),
+    'resourceId': 'sched01',
+    'start': new Date(2018, 5, 27, 5, 30, 0, 0),
+    'end': new Date(2018, 5, 27, 6, 30, 0, 0),
     'isRecurrenceEdit': false,
     'isEdit': false,
     'isDelete': true,
@@ -71,9 +71,9 @@ export default {
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
     'soapNoteTitle': 'View Soap Note',
-    'resourceId': 'c',
-    'start': new Date(2017, 9, 4, 6, 0, 0, 0),
-    'end': new Date(2017, 9, 4, 6, 30, 0, 0),
+    'resourceId': 'sched01',
+    'start': new Date(2018, 5, 27, 6, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 6, 30, 0, 0),
     'isRecurrenceEdit': false,
     'isEdit': true,
     'isDelete': true,
@@ -96,9 +96,9 @@ export default {
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
     soapNoteTitle: 'View Soap Note',
-    'resourceId': 'a',
-    'start': new Date(2017, 9, 4, 6, 0, 0, 0),
-    'end': new Date(2017, 9, 4, 7, 30, 0, 0),
+    'resourceId': 'sched01',
+    'start': new Date(2018, 5, 27, 6, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 7, 30, 0, 0),
     'isDragable': false,
   }, {
     'title': 'Smartdata Events',
@@ -111,9 +111,9 @@ export default {
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
     'soapNoteTitle': 'Create Soap Note',
-    'resourceId': 'a',
-    'start': new Date(2017, 8, 7, 5, 30, 0, 0),
-    'end': new Date(2017, 8, 7, 10, 30, 0, 0),
+    'resourceId': 'sched01',
+    'start': new Date(2018, 5, 27, 5, 30, 0, 0),
+    'end': new Date(2018, 5, 27, 10, 30, 0, 0),
     'isDragable': false,
   }, {
     'title': 'Another Meeting',
@@ -126,10 +126,10 @@ export default {
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
     'soapNoteTitle': 'Soap Note',
-    'resourceId': 'c',
+    'resourceId': 'sched01',
     'statusId':1,
-    'start': new Date(2017, 8, 8, 2, 30, 0, 0),
-    'end': new Date(2017, 8, 8, 4, 30, 0, 0),
+    'start': new Date(2018, 5, 27, 2, 30, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 30, 0, 0),
     'isDragable': false,
   },
   {
@@ -142,10 +142,10 @@ export default {
     'appointmentTime': '8:00 PM - 8:30 PM',
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
-    'resourceId': 'c',
+    'resourceId': 'sched02',
     'statusId':1,
-    'start': new Date(2017, 8, 9, 4, 0, 0, 0),
-    'end': new Date(2017, 8, 9, 4, 15, 0, 0),
+    'start': new Date(2018, 5, 27, 4, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 15, 0, 0),
     'isDragable': false,
   },
   {
@@ -158,9 +158,9 @@ export default {
     'appointmentTime': '8:00 PM - 8:30 PM',
     'appointmentAddress': 'ROOM NO 228-230, FIRST FLOOR, DISTRICT ADMINISTRATIVE COMPLEX, SECTOR 76, Sahibzada Ajit Singh Nagar, Chandigarh, 160055',
     'coPay': '',
-    'resourceId': 'c',
-    'start': new Date(2017, 8, 9, 4, 0, 0, 0),
-    'end': new Date(2017, 8, 9, 4, 15, 0, 0),
+    'resourceId': 'sched02',
+    'start': new Date(2018, 5, 27, 4, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 15, 0, 0),
     'isDragable': false,
   },
   {
@@ -173,8 +173,8 @@ export default {
     'appointmentTime': '8:00 - 8:30',
     'coPay': '',
     'resourceId': 'c',
-    'start': new Date(2017, 8, 9, 4, 0, 0, 0),
-    'end': new Date(2017, 8, 9, 4, 15, 0, 0),
+    'start': new Date(2018, 5, 27, 4, 0, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 15, 0, 0),
     'isDragable': false,
   },
   {
@@ -186,9 +186,9 @@ export default {
     'appointmentType': 'Regular appointment',
     'appointmentTime': '8:00 - 8:30',
     'coPay': '',
-    'resourceId': 'c',
-    'start': new Date(2017, 8, 9, 3, 45, 0, 0),
-    'end': new Date(2017, 8, 9, 4, 15, 0, 0),
+    'resourceId': 'sched03',
+    'start': new Date(2018, 5, 27, 3, 45, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 15, 0, 0),
     'isDragable': false,
   },
   {
@@ -200,9 +200,9 @@ export default {
     'appointmentType': 'Regular appointment',
     'appointmentTime': '8:00 - 8:30',
     'coPay': '',
-    'resourceId': 'c',
-    'start': new Date(2017, 8, 9, 2, 10, 0, 0),
-    'end': new Date(2017, 8, 9, 6, 30, 0, 0),
+    'resourceId': 'sched03',
+    'start': new Date(2018, 5, 27, 2, 10, 0, 0),
+    'end': new Date(2018, 5, 27, 6, 30, 0, 0),
     'isDragable': false,
   },
   {
@@ -214,9 +214,9 @@ export default {
     'appointmentType': 'Regular appointment',
     'appointmentTime': '8:00 - 8:30',
     'coPay': '',
-    'resourceId': 'c',
-    'start': new Date(2017, 8, 9, 1, 50, 0, 0),
-    'end': new Date(2017, 8, 9, 5, 0, 0, 0),
+    'resourceId': 'sched02',
+    'start': new Date(2018, 5, 27, 1, 50, 0, 0),
+    'end': new Date(2018, 5, 27, 5, 0, 0, 0),
     'isDragable': false,
   },
   {
@@ -228,22 +228,22 @@ export default {
     'appointmentType': 'Regular appointment',
     'appointmentTime': '8:00 - 8:30',
     'coPay': '',
-    'resourceId': 'c',
+    'resourceId': 'sched02',
     'statusId':1,
-    'start': new Date(2017, 8, 26, 2, 30, 0, 0),
-    'end': new Date(2017, 8, 26, 4, 30, 0, 0),
+    'start': new Date(2018, 5, 27, 2, 30, 0, 0),
+    'end': new Date(2018, 5, 27, 4, 30, 0, 0),
     'isDragable': false,
   }
   ],
 
   list: [{
-    id: 'a',
-    title: 'Room A'
+    id: 'sched01',
+    title: 'sched01'
   }, {
-    id: 'b',
-    title: 'Room B'
+    id: 'sched02',
+    title: 'sched02'
   }, {
-    id: 'c',
-    title: 'Room C'
+    id: 'sched03',
+    title: 'sched03'
   }]
 }

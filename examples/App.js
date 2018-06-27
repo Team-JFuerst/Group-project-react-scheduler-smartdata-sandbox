@@ -45,7 +45,7 @@ const Example = React.createClass({
 
     return (
       <div className='app'>
-      <div className="jumbotron">
+      {/* <div className="jumbotron">
         <div className="container">
           <h1>Big Calendar <i className='fa fa-calendar'/></h1>
           <p>such enterprise, very business.</p>
@@ -63,11 +63,11 @@ const Example = React.createClass({
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
         <div className='examples'>
           <header className="contain">
             <ul className='nav nav-pills'>
-              <li className={cn({active: selected === 'basic' })}>
+              {/* <li className={cn({active: selected === 'basic' })}>
                 <a href='#' onClick={this.select.bind(null, 'basic')}>Basic</a>
               </li>
               <li className={cn({active: selected === 'selectable' })}>
@@ -84,7 +84,7 @@ const Example = React.createClass({
               </li>
               <li className={cn({active: selected === 'rendering' })}>
                 <a href='#' onClick={this.select.bind(null, 'rendering')}>Custom rendering</a>
-              </li>
+              </li> */}
               {/* temporary hide link to documentation
               <li className={cn({active: selected === 'customView' })}>
                 <a href='#' onClick={this.select.bind(null, 'customView')}>Custom View</a>
@@ -96,18 +96,18 @@ const Example = React.createClass({
             </ul>
           </header>
           <div className='example'>
-            <div className='view-source'>
+            {/* <div className='view-source'>
               <a target='_blank' href={demoRoot + '/' + selected + '.js' }>
                 <strong><i className='fa fa-code'/>{' View example source code'}</strong>
               </a>
-            </div>
+            </div> */}
             <Current className='demo' />
           </div>
         </div>
-        <div className='docs'>
+        {/* <div className='docs'>
           <Intro className='contain section'/>
           <Api className='contain section' />
-        </div>
+        </div> */}
       </div>
     );
   },

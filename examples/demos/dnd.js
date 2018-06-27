@@ -152,13 +152,13 @@ class Dnd extends React.Component {
         // slotPropGetter={(date) => this.slotPropGetter(date) }
         usersAvailability = {this.state.usersAvailability}
         onEventDrop={this.moveEvent}
-        defaultView='month'
-        defaultDate={new Date(2018, 1, 14)}
+        defaultView='resource' // set to 'resource' for default resource view
+        defaultDate={new Date()}
         onSelectEvent={event => console.log(event)}
-        onSelectSlot={(slotInfo) => alert(
-            `selected slot: \n\nstart ${slotInfo.start.toLocaleString()} ` +
-            `\nend: ${slotInfo.end.toLocaleString()}`
-          )}
+        // onSelectSlot={(slotInfo) => alert(
+        //     `selected slot: \n\nstart ${slotInfo.start.toLocaleString()} ` +
+        //     `\nend: ${slotInfo.end.toLocaleString()}`
+        //   )}
       />
     )
   }
